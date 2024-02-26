@@ -23,6 +23,7 @@ loginForm.addEventListener("submit", function (event) {
   loginForm.reset();
 });
 
+// додаю класи
 const classLabel = document.querySelectorAll("label");
 classLabel.forEach((label) => {
   label.classList.add("label-class");

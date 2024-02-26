@@ -10,6 +10,9 @@ const destroyBtn = document.querySelector("[data-destroy]");
 const boxesDiv = document.querySelector("#boxes");
 
 function createBoxes(amount) {
+  // Спочатку очищуємо контейнер перед створенням нових блоків
+  destroyBoxes();
+
   const fragment = document.createDocumentFragment();
   for (let i = 0; i < amount; i++) {
     const box = document.createElement("div");

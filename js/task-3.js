@@ -6,8 +6,9 @@ nameInput.addEventListener("input", () => {
   nameOutput.textContent = trimmedValue || "Anonymous";
 });
 
+// додаю класи
 const nameInputElement = document.querySelector('input[type="text"]');
-const nameOutputElement = document.querySelector("h1");
+const nameOutputElement = document.querySelector("span");
 
 nameInputElement.classList.add("my-input-class");
 nameOutputElement.classList.add("text-class");

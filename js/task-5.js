@@ -15,6 +15,8 @@ button.addEventListener("click", function () {
   colorSpan.textContent = randomColor;
 });
 
+// додаю класи
+
 const widgetDiv = document.querySelector(".widget");
 
 const paragraphElements = widgetDiv.querySelectorAll("p");
